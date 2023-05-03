@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:ital,wght@0,200;0,300;0,400;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none; border: none;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding: 100px;
+    text-align: center;
+}
+
+.top-container p{
+    font-weight: bolder;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.middle-container{
+    text-align: center;
+}
+
+.middle-container .profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-me a{
+    text-decoration: none;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+.bottom-container a{
+    text-decoration: none;
+}
